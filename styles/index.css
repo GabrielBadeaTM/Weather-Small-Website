@@ -1,0 +1,108 @@
+#tipVreme {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.4em;
+}
+
+#tipVremeImag {
+  height: 100px;
+  width: 100px;
+  justify-self: center;
+  padding: 10px;
+}
+
+.wImag {
+  height: 50px;
+  width: 50px;
+  justify-self: center;
+}
+
+.minMax {
+  display: flex;
+}
+
+.minMax p {
+  flex-grow: 1;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+.cityImageBackground {
+  filter: grayscale(80%);
+  background-size: cover;
+  background-position: center;
+}
+
+#bigTitle {
+  font-family: Great Vibes;
+  font-weight: lighter;
+  font-size: 3em;
+  color: #f7f7f7;
+}
+
+.titleLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.text-title {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.saveImage {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.bookmark {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  right: 0;
+  transition: transform 0.2s ease-in-out;
+  padding-bottom: 20px;
+}
+
+#slideSection {
+  position: fixed;
+  top: 0;
+  left: -450px;
+  width: 450px;
+  height: 100vh;
+  background-color: #fbfbfb;
+  box-shadow: 5px 8px 10px hsla(0, 0%, 0%, 0.25);
+  transition: transform 0.3s ease-in-out;
+  z-index: 100;
+  overflow-y: auto;
+}
+
+/* muta aside pe ecran */
+#slideSection.active {
+  transform: translateX(100%);
+}
+
+/* Ascunde bara (aia nenorocita) de scroll */
+#slideSection::-webkit-scrollbar {
+  display: none;
+}
+
+#noSavesYet {
+  text-align: center;
+  padding: 0px 70px;
+  font-size: 1.3em;
+}
+
+#startText {
+  font-size: 1.4em;
+  font-weight: lighter;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}

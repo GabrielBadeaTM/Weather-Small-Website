@@ -1,0 +1,61 @@
+.card {
+  justify-self: center;
+  margin: 30px 0px;
+  width: 700px;
+  height: 370px;
+  padding: 25px;
+  background-color: #fafafa;
+  box-shadow: 5px 8px 10px hsla(0, 0%, 0%, 0.25);
+}
+
+/* cardul principal */
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/* forecast 5 zile */
+.card-2 {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  height: auto;
+}
+
+.card-day {
+  border: 2px solid #1a1a1a;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+/* card poza */
+.card-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid #f7f7f7;
+}
+
+.card-favorite {
+  height: 80px;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  /* Asta pentru poze*/
+  background-size: cover;
+  filter: grayscale(80%);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.card p {
+  font-size: 1.2em;
+  margin: 0;
+}
